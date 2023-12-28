@@ -2,9 +2,10 @@
 using namespace std;
 int VvestiA() {
 	int nomer1;
-	cout << "Enter the natural number A: ";
+	cout << "Enter the natural number A:  ";
 	cin >> nomer1;
 	return nomer1;
+
 }
 int VvestiB() {
 	return 0;
