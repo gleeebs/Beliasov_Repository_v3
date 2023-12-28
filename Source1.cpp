@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
 int VvestiA() {
-	int nomer1;
-	cout << "Enter the natural number A:  ";
-	cin >> nomer1;
-	return nomer1;
+	return 0;
 
 }
 int VvestiB() {
