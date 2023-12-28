@@ -1,8 +1,11 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
+
 int VvestiA() {
 	return 0;
 }
+
+
 int VvestiB() {
 	int nomer2;
 	cout << "Enter the natural number B: ";
@@ -21,7 +24,7 @@ int dif(int x, int y) {
 
 int main()
 {
-	cout << "Enter 1 to enter the first number" << endl << "Enter 2 to enter the second number" << endl << "Enter 3 if you want to perform an addition operation  A and B" << endl;
+	cout << "Enter 1 to enter the first number" << endl << "Enter 2 to enter the second number" << endl << "Enter 3 if you want to perform an addition operation  A and B" << endl << "Enter 4 if you want to perform a subtraction operation A and B" << endl << "Enter 0 to exit the program" << endl;
 	int x = 0;
 	int No1 = 0;
 	int No2 = 0;
@@ -37,6 +40,7 @@ int main()
 			continue;
 		case 3:
 			cout << "the sum of A and B: " << sum(No1, No2) << endl;
+			continue;
 		case 4:
 			cout << "the difference between A and B " << dif(No1, No2) << endl;
 			continue;
